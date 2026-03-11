@@ -6,7 +6,6 @@
 ![Accuracy](https://img.shields.io/badge/Accuracy-97%25-brightgreen?style=for-the-badge)
 ![F1 Score](https://img.shields.io/badge/F1%20Score-95%25-success?style=for-the-badge)
 ![Gradio](https://img.shields.io/badge/Deployed-Gradio-ff7c00?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
 
 > **An AI-powered real-time bone fracture detection system that helps patients and clinicians get instant analysis of X-ray images — reducing dependency on immediate radiologist availability.**
 
