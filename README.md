@@ -27,7 +27,7 @@
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Every day, thousands of patients receive X-ray reports they cannot understand. In under-resourced clinics and emergency settings:
 
@@ -40,7 +40,7 @@ Every day, thousands of patients receive X-ray reports they cannot understand. I
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 | Metric | Score |
 |--------|-------|
@@ -72,7 +72,7 @@ Every day, thousands of patients receive X-ray reports they cannot understand. I
 
 ---
 
-## 🏗️ CNN Architecture
+## CNN Architecture
 
 ```
 Input Layer      →  X-Ray Image (150 × 150 × 3)
@@ -100,7 +100,7 @@ Output Layer     →  Dense(2) + Softmax
 
 ---
 
-## 🛡️ Overfitting Prevention Strategy
+##Overfitting Prevention Strategy
 
 | Technique | Purpose |
 |-----------|---------|
@@ -111,7 +111,7 @@ Output Layer     →  Dense(2) + Softmax
 
 ---
 
-## 📁 Dataset
+## Dataset
 
 - **Total Images:** 8,800+ X-ray scans
 - **Classes:** Fractured / Normal — balanced 50/50
@@ -120,7 +120,7 @@ Output Layer     →  Dense(2) + Softmax
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology | Usage |
 |------------|-------|
@@ -133,7 +133,7 @@ Output Layer     →  Dense(2) + Softmax
 
 ---
 
-## ⚙️ How to Run Locally
+## How to Run Locally
 
 ### 1. Clone the repository
 ```bash
@@ -149,7 +149,7 @@ pip install -r requirements.txt
 ### 3. Download the trained model
 Download and place in the root directory:
 
-📥 [Download Model from Google Drive](https://drive.google.com/file/d/1zsrpa9R8g0_fiPf1qAdFXh8I9uUSHU2J/view?usp=drive_link)
+[Download Model from Google Drive](https://drive.google.com/file/d/1zsrpa9R8g0_fiPf1qAdFXh8I9uUSHU2J/view?usp=drive_link)
 
 ### 4. Run the notebook
 ```bash
@@ -162,7 +162,7 @@ Upload any X-ray image to get an instant prediction with confidence score.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 X-Ray-Bone-Fracture-Detection/
@@ -178,7 +178,7 @@ X-Ray-Bone-Fracture-Detection/
 
 ---
 
-## 💡 Key Learnings
+## Key Learnings
 
 - **Business problem first** — started from patient pain points, not technology
 - **F1 Score > Accuracy** in medical and imbalanced datasets
@@ -188,7 +188,7 @@ X-Ray-Bone-Fracture-Detection/
 
 ---
 
-## 🚀 Future Roadmap
+## Future Roadmap
 
 - [ ] **Grad-CAM** visualization — highlight exact fracture region on X-ray for explainability
 - [ ] **Pediatric dataset** — extend model to children's bone structure
@@ -198,14 +198,14 @@ X-Ray-Bone-Fracture-Detection/
 
 ---
 
-## ⚠️ Medical Disclaimer
+## Medical Disclaimer
 
 > This tool is an **AI-assisted system** designed to support — not replace — qualified medical professionals.
 > All predictions must be reviewed by a licensed radiologist before any clinical decision is made.
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Chitimilla Pavan Venkat**
 
